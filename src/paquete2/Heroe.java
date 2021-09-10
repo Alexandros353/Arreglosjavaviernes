@@ -36,9 +36,8 @@ public class Heroe {
         
     else{
     
-        System.out.println("Edad invalida");
+        //System.out.println("Edad invalida");
 }
-    
     
     
     

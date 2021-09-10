@@ -5,6 +5,7 @@
  */
 package arreglos;
 
+import java.util.Scanner;
 import paquete2.Heroe;
 
 /**
@@ -18,13 +19,32 @@ public class Arreglos {
      */
     public static void main(String[] args) {
         
+        Scanner  entrada = new Scanner(System.in);
+        int[] numeros=new int[5];
+        
+        
+        for(int i=0;i<numeros.length;i++){
+            
+            System.out.println("Digita un numero: ");
+            numeros[1]=entrada.nextInt();
+            
+            
+            
+        }
+            for(int i=0;i<numeros.length;i++){
+            
+            System.out.println(i);
+            
+        }
+        
+        
         //Como Se Utiliza Una Clase?//
         //R= Creando Objetos//
         
          //Que Es Un Objeto?//
          //R= Una Variable//
          
-        int edad=50;
+       
         Heroe heroe=new Heroe();
         Enemigo enemigo=new Enemigo();
         
@@ -35,8 +55,8 @@ public class Arreglos {
         //Accediendo A Un Atributo Privado//
         heroe.setEdad(-5);
         
-        System.out.println(heroe.nombre);
-        System.out.println(heroe.getEdad());
+        //System.out.println(heroe.nombre);
+        //System.out.println(heroe.getEdad());//
     }
     
 }
